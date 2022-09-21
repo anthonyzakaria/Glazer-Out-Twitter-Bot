@@ -26,7 +26,7 @@ def reply_to_tweets():
 
 	
     
-    timeline_tweets = api.user_timeline(screen_name='Buccaneers',tweet_mode='extended')
+    timeline_tweets = api.user_timeline(screen_name='ManUtd',tweet_mode='extended')
     
 
     for timeline_tweet in reversed(timeline_tweets):
